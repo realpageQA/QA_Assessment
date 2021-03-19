@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="User creates an account" tests="2" skipped="0" failures="1" errors="0" timestamp="2021-03-17T19:34:00" hostname="DESKTOP-7658FGJ" time="39.253">
+  <properties/>
+  <testcase name="User can create an account" classname="User creates an account" time="21.699">
+    <failure message="org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;passwd&quot;}&#10;  (Session info: chrome=89.0.4389.90)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-7658FGJ', ip: '10.25.232.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dmeza\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a24ea76cdd568c4629eb8efcd786de79&#10;*** Element info: {Using=css selector, value=passwd}" type="org.openqa.selenium.NoSuchElementException">org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;passwd&quot;}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7658FGJ', ip: '10.25.232.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dmeza\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a24ea76cdd568c4629eb8efcd786de79
+*** Element info: {Using=css selector, value=passwd}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
+	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:18)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:221)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.sendKeys(WebElementFacadeImpl.java:1293)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoBy.performAs(EnterValueIntoBy.java:29)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoBy$ByteBuddy$JbJMBL4O.performAs$accessor$quwvFyET(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoBy$ByteBuddy$JbJMBL4O.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:248)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:229)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:175)
+	at starter.register.FillForm.performAs(FillForm.java:21)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:248)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:229)
+	at net.serenitybdd.screenplay.Actor.performWithoutReporting(Actor.java:213)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:173)
+	at starter.stepdefinitions.RegisterStepDefinitions.user_fills_sign_up_form(RegisterStepDefinitions.java:71)
+	at ✽.User fills sign up form(file:src/test/resources/features/createaccount/createaccount.feature:8)
+</failure>
+  </testcase>
+  <testcase name="User can log in account" classname="User creates an account" time="16.578"/>
+  <system-out><![CDATA[Feature: User creates an account
+
+  Scenario: User can create an account     ?[90m# src/test/resources/features/createaccount/createaccount.feature:3?[0m
+14:34:00.893 [Test worker] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+User can create an account(user-creates-an-account;user-can-create-an-account)
+-------------------------------------------------------------------
+14:34:02.636 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+14:34:02.637 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors;\n, --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --incognito, --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mDiana?[0m?[32m is on HomePage?[0m             ?[90m# RegisterStepDefinitions.the_user_is_on_HomePage(String)?[0m
+    ?[32mWhen ?[0m?[32mthe user clicks on Sign in?[0m        ?[90m# RegisterStepDefinitions.the_user_clicks_on_Sign_in()?[0m
+    ?[32mAnd ?[0m?[32muser enters ?[0m?[32m?[1memailtest@gmail.com?[0m    ?[90m# RegisterStepDefinitions.user_enters_email(String)?[0m
+    ?[32mAnd ?[0m?[32mUser Clicks create account?[0m         ?[90m# RegisterStepDefinitions.user_Clicks_create_account()?[0m
+    ?[31mAnd ?[0m?[31mUser fills sign up form?[0m            ?[90m# RegisterStepDefinitions.user_fills_sign_up_form(String>)?[0m
+      ?[31morg.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"passwd"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7658FGJ', ip: '10.25.232.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dmeza\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a24ea76cdd568c4629eb8efcd786de79
+*** Element info: {Using=css selector, value=passwd}
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:420)
+	at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:222)
+	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:18)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:221)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.sendKeys(WebElementFacadeImpl.java:1293)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoBy.performAs(EnterValueIntoBy.java:29)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoBy$ByteBuddy$JbJMBL4O.performAs$accessor$quwvFyET(Unknown Source)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:488)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:468)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:441)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:197)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:184)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:77)
+	at net.serenitybdd.screenplay.actions.EnterValueIntoBy$ByteBuddy$JbJMBL4O.performAs(Unknown Source)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:248)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:229)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:175)
+	at starter.register.FillForm.performAs(FillForm.java:21)
+	at net.serenitybdd.screenplay.Actor.performTask(Actor.java:248)
+	at net.serenitybdd.screenplay.Actor.perform(Actor.java:229)
+	at net.serenitybdd.screenplay.Actor.performWithoutReporting(Actor.java:213)
+	at net.serenitybdd.screenplay.Actor.attemptsTo(Actor.java:173)
+	at starter.stepdefinitions.RegisterStepDefinitions.user_fills_sign_up_form(RegisterStepDefinitions.java:71)
+	at ?.User fills sign up form(file:src/test/resources/features/createaccount/createaccount.feature:8)
+?[0m
+    ?[36mAnd ?[0m?[36mUser clicks register?[0m               ?[90m# RegisterStepDefinitions.user_clicks_register()?[0m
+    ?[36mThen ?[0m?[36mthe user is taken my account page?[0m ?[90m# RegisterStepDefinitions.the_user_is_taken_my_account_page()?[0m
+
+  Scenario: User can log in account         ?[90m# src/test/resources/features/createaccount/createaccount.feature:13?[0m
+14:34:23.544 [Test worker] INFO   - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+
+User can log in account(user-creates-an-account;user-can-log-in-account)
+-------------------------------------------------------------------
+14:34:24.000 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Instantiating driver
+14:34:24.000 [Test worker] INFO  n.s.c.w.d.ProvideNewDriver - Driver capabilities: Capabilities {acceptInsecureCerts: false, browserName: chrome, chrome.switches: --start-maximized;--test-ty..., goog:chromeOptions: {args: [--start-maximized, --test-type, --no-sandbox, --ignore-certificate-errors;\n, --disable-popup-blocking, --disable-default-apps, --disable-extensions-file-a..., --incognito, --disable-infobars, --disable-gpu], extensions: []}, loggingPrefs: org.openqa.selenium.logging..., platform: ANY, version: }
+    ?[32mGiven ?[0m?[32m?[0m?[32m?[1mDiana?[0m?[32m has a valid account?[0m         ?[90m# LoginStepDefinitions.has_a_valid_account(String)?[0m
+    ?[32mWhen ?[0m?[32mwhen user clicks on sign in?[0m        ?[90m# LoginStepDefinitions.when_user_clicks_on_sign_in()?[0m
+    ?[32mAnd ?[0m?[32menters ?[0m?[32m?[1memailtest@gmail.com?[0m?[32m as email?[0m ?[90m# LoginStepDefinitions.enters_email(String)?[0m
+    ?[32mAnd ?[0m?[32menters ?[0m?[32m?[1mtest123?[0m?[32m as password?[0m          ?[90m# LoginStepDefinitions.enters_password(String)?[0m
+    ?[32mAnd ?[0m?[32mclicks sign in?[0m                      ?[90m# LoginStepDefinitions.clicks_sign_in()?[0m
+    ?[32mThen ?[0m?[32mthe user is successfully logged in?[0m ?[90m# LoginStepDefinitions.the_user_is_successfully_logged_in()?[0m
+]]></system-out>
+  <system-err><![CDATA[Mar 17, 2021 2:34:01 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 22332
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 17, 2021 2:34:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Mar 17, 2021 2:34:23 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 89.0.4389.23 (61b08ee2c50024bab004e48d2b1b083cdbdac579-refs/branch-heads/4389@{#294}) on port 35674
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Mar 17, 2021 2:34:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

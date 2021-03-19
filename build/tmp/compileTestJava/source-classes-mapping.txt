@@ -1,0 +1,38 @@
+starter/myaccount/MyAccountOverview.java
+ starter.myaccount.MyAccountOverview
+starter/login/ClickOnButton.java
+ starter.login.ClickOnButton
+starter/navigation/PracticeHomePage.java
+ starter.navigation.PracticeHomePage
+starter/myaccount/MyAccountData.java
+ starter.myaccount.MyAccountData
+starter/register/RegisterForm.java
+ starter.register.RegisterForm
+starter/register/PerformClickOn.java
+ starter.register.PerformClickOn
+starter/stepdefinitions/LoginStepDefinitions.java
+ starter.stepdefinitions.LoginStepDefinitions
+starter/login/EnterEmail.java
+ starter.login.EnterEmail
+starter/navigation/NavigationForm.java
+ starter.navigation.NavigationForm
+starter/register/LoginRegisterForm.java
+ starter.register.LoginRegisterForm
+starter/login/EnterPassword.java
+ starter.login.EnterPassword
+starter/register/FillForm.java
+ starter.register.FillForm
+starter/register/EnterEmailToRegister.java
+ starter.register.EnterEmailToRegister
+starter/CucumberTestSuite.java
+ starter.CucumberTestSuite
+starter/stepdefinitions/RegisterStepDefinitions.java
+ starter.stepdefinitions.RegisterStepDefinitions
+models/DataForm.java
+ models.DataForm
+starter/login/LoginForm.java
+ starter.login.LoginForm
+starter/navigation/NavigateTo.java
+ starter.navigation.NavigateTo
+starter/register/ClickOn.java
+ starter.register.ClickOn

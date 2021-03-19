@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="1" failures="0" name="User creates an account" skipped="0" tests="2" time="38.25" timestamp="2021-03-17 02:34:00"><testcase name="User can create an account"><error message="no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;passwd&quot;}&#10;  (Session info: chrome=89.0.4389.90)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'&#10;System info: host: 'DESKTOP-7658FGJ', ip: '10.25.232.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dmeza\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: a24ea76cdd568c4629eb8efcd786de79&#10;*** Element info: {Using=css selector, value=passwd}" type="org.openqa.selenium.NoSuchElementException">no such element: Unable to locate element: {"method":"css selector","selector":"passwd"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7658FGJ', ip: '10.25.232.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dmeza\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a24ea76cdd568c4629eb8efcd786de79
+*** Element info: {Using=css selector, value=passwd}</error><system-err>no such element: Unable to locate element: {"method":"css selector","selector":"passwd"}
+  (Session info: chrome=89.0.4389.90)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-7658FGJ', ip: '10.25.232.55', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 89.0.4389.90, chrome: {chromedriverVersion: 89.0.4389.23 (61b08ee2c5002..., userDataDir: C:\Users\Dmeza\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:54046}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: a24ea76cdd568c4629eb8efcd786de79
+*** Element info: {Using=css selector, value=passwd}&#13;
+starter.register.FillForm.performAs(FillForm.java:21)&#13;
+starter.stepdefinitions.RegisterStepDefinitions.user_fills_sign_up_form(RegisterStepDefinitions.java:71)&#13;
+cucumber.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:50)&#13;
+cucumber.runner.TestStep.executeStep(TestStep.java:65)&#13;
+cucumber.runner.TestStep.run(TestStep.java:50)&#13;
+cucumber.runner.PickleStepTestStep.run(PickleStepTestStep.java:43)&#13;
+cucumber.runner.TestCase.run(TestCase.java:46)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:50)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:68)&#13;
+io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:23)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:208)&#13;
+io.cucumber.junit.CucumberSerenityRunner.runChild(CucumberSerenityRunner.java:66)&#13;
+</system-err></testcase><testcase name="User can log in account"/></testsuite>
